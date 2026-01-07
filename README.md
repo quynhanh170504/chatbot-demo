@@ -4,7 +4,7 @@ Scrapes technical articles, converts them into an AI-optimized Markdown format, 
 
 ## 1. Project Overview
 This project satisfies the requirements for building a specialized RAG (Retrieval-Augmented Generation) system:
-* **Automated Scraping:** Pulls the latest 30 articles from the OptiSigns Help Center API.
+* **Automated Scraping:** Pulls the latest 30 articles from the Zendesk Help Center API.
 * **Content Transformation:** Converts messy HTML into clean, structured Markdown.
 * **Delta-Sync Logic:** Uses MD5 hashing to detect changes. Only new or modified articles are uploaded to OpenAI, significantly reducing API costs and processing time.
 * **Vector Search Integration:** Automatically manages Vector Stores and File Batches via the latest OpenAI SDK.
